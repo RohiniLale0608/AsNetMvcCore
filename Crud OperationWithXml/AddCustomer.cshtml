@@ -1,0 +1,31 @@
+﻿@model Customer
+<form asp-controller="Customer" asp-action="AddCustomer">
+    <div asp-controller="Customer" asp-action="AddCustomer">
+        <label asp-for="Custid" ></label><br />
+        <input asp-for="Custid"/>
+    </div>
+    <div asp-controller="Customer" asp-action="AddCustomer">
+        <label asp-for="Name"></label><br />
+        <input asp-for="Name" />
+    </div>
+    <div asp-controller="Customer" asp-action="AddCustomer">
+        <label asp-for="Balance"></label><br />
+        <input asp-for="Balance" />
+    </div>
+    <div asp-controller="Customer" asp-action="AddCustomer">
+        <label asp-for="City"></label><br />
+        <input asp-for="City" />
+    </div>
+    <div asp-controller="Customer" asp-action="AddCustomer">
+        <label asp-for="Status"></label><br />
+        <input asp-for="Status" />
+    </div>
+    <div>
+        <input type="submit" value="Save" />
+        <input type="reset" value="Reset" />
+    </div>
+    <div>
+        <a asp-action="DisplayCustomers" align="center">Back to Customer Details</a>
+    </div>
+</form>
+
